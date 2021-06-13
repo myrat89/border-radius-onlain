@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="mystyle.css" type="text/css">
+	<title>онлаин генератор css</title>
+</head>
+<body>
+  <div class="wrappers">
+	<p class="text_heder_home">Onlaine Generator CSS</p>
+	<button class="but_menu" data-tab="0">Округление углов</button>
+	<button class="but_menu" data-tab="1">Тень блока</button>
+	<button class="but_menu" data-tab="2">Градиент блока</button>
+	
+		<div class="box_heder_home">
+			<div class="box_lenta" style="left:0px;">
+			
+				<div class="box_element" id="box_radius" style="background-color:#D05300; background-radius: 0px 0px 0px 0px;">
+						<input class="numb" id="num1" type="number" min="0" max="200" value="0">
+						<input class="numb" id="num2" type="number" min="0" max="200" value="0">
+						<input class="numb" id="num3" type="number" min="0" max="200" value="0">
+						<input class="numb" id="num4" type="number" min="0" max="200" value="0">
+					<div class="box_shablon">
+						<p>Скопировать CSS код </p>
+						<p class="text_output"></p>
+					</div>
+				</div>
+			 	
+				<div class="box_element">
+					<div class="box_shablon2" style="box-shadow: 1px 1px 4px 0px #000000;">
+						<p>цвет тени: <input type="color" class="shodow" id="col" value="#000000"></p>
+						<input class="shodow" type="number" min="-100" max="200" value="1" id="sho1">
+						<input class="shodow" type="number" min="-100" max="200" value="1" id="sho2">
+						<input class="shodow" type="number" min="0" max="200" value="1" id="sho3">
+						<input class="shodow" type="number" min="0" max="200" value="1" id="sho4">	
+						<p class="text_copy">Скопировать CSS код </p>
+						<p class="text_output2"></p>
+					</div>
+				</div>
+				<div class="box_element">
+					<p class="par">color top <input type="color" class="rgadient"></p>
+					<p class="par">color buttom <input type="color" class="rgadient"></p>
+					<div class="box_gradient"></div>
+					<div class="box_text_output">
+						<p>Скопировать CSS код</p>
+						<p class="text_output3"></p>
+					</div>
+					<input type="number" class="nymb_height" min="30" max="200" value="200">	
+				</div>
+			</div>
+		</div>
+		 <p style="display:inline-block;"><input type="checkbox" name="a" value="я не робот" class="chek">я не робот</p>
+
+ </div>
+<script type="text/javascript" src="onlain.js"></script>
+</body>
+</html>
